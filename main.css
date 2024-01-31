@@ -1,0 +1,643 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 3200px;
+}
+.nav-bar ul{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    display: flex;
+    position: fixed;
+    left: 860px;
+    font-size: 1.2rem;
+
+}
+.nav-bar ul li{
+    list-style: none;
+ 
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 14px;
+    padding-top: 20px;
+cursor: pointer;
+}
+.name{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    /* font-family:'Montserrat', sans-serif; */
+    position: fixed;
+    left: 8px;
+    top: -15px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+/* .,.....>>>> Nav bar completed .....>>>>*/
+                            /* Mid text */
+#p1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 256px;
+    left: 274px;
+    
+}
+.p1img{
+    position: absolute;
+    height: 59px;    
+    width: 76px;
+    top: 342px;
+    left: 502px;
+    background: transparent;
+    
+}
+.p2{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    position: absolute;
+    top: 397px;
+    left: 272px;
+    color: #767676;
+}
+.p2img{
+    position: absolute;
+    height: 38px;
+    width: 41px;
+    top: 435px;
+    left: 543px;
+}
+#fa1{
+    position: absolute;
+    top: 489px;
+    left: 273px;
+    font-size: 1.5rem;  
+    cursor: pointer;
+}
+#fa2{
+    position: absolute;
+    top: 490px;
+    left: 306px;
+    font-size: 1.5rem;  
+    cursor: pointer;
+    
+}
+.intro-img img{
+    position: absolute;
+    height: 254px;
+    width: 296px;
+    top: -226px;
+    left: 401px;
+    background: transparent;
+    border-radius: 100px;
+}
+.tech1
+{
+    position: relative;
+    font-size: 1rem;
+    left: -7px;
+    top: 22px;
+    font-family:'Montserrat', sans-serif;
+}
+.techline{
+    position: relative;
+    top: -13px;
+    left: 97px;
+    font-weight: 900;
+    width: 278px;
+    height: 30px;
+}
+.html{
+    height: 29px;
+    position: absolute;
+    width: 31px;
+    top: 35px;
+    left: 122px;
+}
+.css{
+    position: relative;
+    top: -65px;
+    height: 32px;
+    width: 35px;
+    left: 169px;
+}
+.js{
+    position: absolute;
+    height: 39px;
+    width: 37px;
+    top: 29px;
+    left: 218px;
+}
+.react{
+    height: 31px;
+    width: 35px;
+    position: absolute;
+    top: 34px;
+    left: 269px;
+}
+.bootstrap{
+    position: absolute;
+    height: 30px;
+    width: 36px;
+    top: 36px;
+    left: 323px;
+}
+.tailwind{
+    position: absolute;
+    height: 29px;
+    width: 47px;
+    top: 37px;
+    left: 380px;  
+}
+.saas{
+    position: absolute;
+    height: 35px;
+    width: 42px;
+    top: 34px;
+    left: 447px;
+    
+}
+/* straight the image */
+.tech-stack{
+    position: absolute;
+    top: 504px;
+    left: 279px;
+}
+#set{
+    position: absolute;
+    top: 276px;
+    left: 700px;
+    
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>> Styling image>>>>>>>>>>>> */
+.intro-img img{
+    background: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -10px center;
+    background-blend-mode: multiply;
+    animation: morph 8s ease-in-out infinite;
+}
+@keyframes morph{
+    0%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+/* About me section*/
+.aboutme{
+    height: 246px;
+    width: 333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 537px;
+    left: 129px;
+    border-radius: 32px;
+}
+.cartoon{
+    height: 76px;
+    width: 78px;
+    position: relative;
+    background: transparent;
+    top: 468px;
+    left: 403px;
+    border-radius: 138px;    
+    
+}
+.me{
+
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    position: relative;
+    top: 152px;
+    left: 535px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #189be5;
+}
+#head-text{
+    font-family:'Montserrat', sans-serif;   
+    position: relative;
+    left: 534px;
+    top: 121px;
+}
+.real-about{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    position: relative;
+    top: 120px;
+    left: 531px;
+    width: 564px;
+    color: #767676;
+}
+/* portfolio */
+
+.port-text{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    position: absolute;
+    top: 1743px;
+    left: 334px;
+    color: #189be5;
+    font-size: 1.5rem;
+    width: 100%;
+}
+#p-head{
+    font-family:'Montserrat', sans-serif;   
+    position: absolute;
+    top: 1797px;
+    left: 333px;
+    font-size: 1.3rem;
+    height: 72px;
+    width: 100%;
+}
+.college-head{
+    width: 100%;
+    font-family:'Montserrat', sans-serif;   
+    position: absolute;
+    top: 1899px;
+    left: 878px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 66px;
+}
+.hat{
+    height: 34px;
+    position: absolute;
+    top: 1912px;
+    left: 1046px;
+}
+.college-mid{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    position: absolute;
+    top: 1947px;
+    left: 824px;
+    width: 316px;
+    color: #767676;
+}
+.tech-college{
+    font-family:'Montserrat', sans-serif;   
+    position: absolute;
+    top: 2110px;
+    left: 865px;
+    width: 100%;
+}
+.code{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    position: absolute;
+    top: 2152px;
+    left: 835px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+}
+.live{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    position: absolute;
+    top: 2161px;
+    left: 956px;
+    cursor: pointer;
+    font-weight: bold;
+width: 80%;}
+    .portfolio{
+        display: inline-block;
+        position: relative;
+        top: -260px;
+        left: -76px;
+    }
+    .project{
+        height: 252px;
+        width: 427px;
+        position: relative;
+        left: 340px;
+        top: 1941px;
+    }
+
+    
+    /* <<<<<<<<<<<<<<<<<< Contact >>>>>>>>>>>>>>>>*/
+    .contact-main{
+        font-family: 'Baloo Bhaijaan 2', sans-serif;
+        position: absolute;
+        top: 2734px;
+        left: 259px;   
+         color: #189be5;
+        font-size: 1.5rem;
+    }
+    .contact-ul{
+        position: absolute;
+        top: 2785px;
+        left: 247px;
+    }
+ .contact-ul li a{
+     font-family: 'Baloo Bhaijaan 2', sans-serif;
+     text-decoration: none;
+     color: black;
+ }
+#mail-icon{
+    cursor: pointer;
+    position: absolute;
+    top: 2806px;
+    left: 436px;
+}
+#up-icon{
+    position: absolute;
+    top: 2832px;
+    left: 344px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 3120px;
+    background: black;
+}
+.h2{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    color: white;
+}
+
+    /* >>>>>>>>>>>>>>>>Responsive>>>>>>>>>>>>>>>>>>  */
+    /* @media(max-width:1248px){
+        .nav-bar ul{
+            position: fixed;
+            left: 401px;
+        }
+    }
+
+    @media(max-width:700px)
+    {
+        .nav-bar ul{
+            position: fixed;
+            left: 298px;
+            cursor: pointer;
+        }
+        .alluper{
+            position: relative;
+            left: -98px;
+        }
+        #set{
+            position: absolute;
+    left: 619px;
+    top: 236px;}
+            #p1{
+                position: relative;
+                display: flex;
+                flex-flow: column;
+            }
+.p2{
+    position: absolute;
+    top: 361px;
+}
+.p1img{
+    position: absolute;
+    top: 305px;
+
+}
+.p2img{
+    position: absolute;
+    top: 406px;
+}
+.tech-college{
+    position: absolute;
+    left: 830px;
+}
+.live{
+    position: absolute;
+    top: 2180px;
+    left: 893px;
+}
+.project{
+    position: relative;
+    left: 329px;
+}
+.hat{
+    position: absolute;
+    top: 1933px;
+    left: 967px;
+}
+
+        }
+        @media(max-width:540px){
+         #fa1{
+            position: absolute;
+            top: 531px;
+         }
+         #fa2{
+            position: absolute;
+             top: 531px;
+         }
+         .tech-stack{
+            position: absolute;
+            top: 549px;
+         }
+         .p2img{
+            position: absolute;
+            top: 453px;
+            left: 403px
+         }
+        }
+        @media(max-width:632px){
+#p-head{
+    font-size: 1rem;
+    width: 380px;
+}
+        } */
+     @media(max-width:700px){
+        .nav-bar ul{
+            position: fixed;
+            left: 140px;
+            top: 0px;
+        }
+       #set{
+        position: absolute;
+        top: 102px;
+        left: 193px;
+       }
+       #p1{
+        position: absolute;
+        top: 325px;
+        left: 179px;
+       }
+       .p1img{
+        position: absolute;
+        height: 59px;
+        width: 76px;
+        top: 413px;
+        left: 402px;
+       }
+       .p2{
+        position: absolute;
+        top: 461px;
+        left: 177px;
+       }
+       .p2img{
+        position: absolute;
+        height: 38px;
+        width: 41px;
+        top: 495px;
+        left: 446px;
+       }
+       #fa1{
+        position: absolute;
+        top: 540px;
+        left: 181px;
+       }
+       #fa2{
+        position: absolute;
+        top: 541px;
+        left: 222px;
+    
+       }
+       .tech-stack{
+        position: absolute;
+        top: 563px;
+        left: 181px;
+       }
+       .saas{position: absolute;
+       height: 35px;
+       width: 42px;
+       top: 81px;
+       left: 117px;
+       }
+       .me{
+        position: relative;
+        top: 142px;
+        left: 80px;
+       }
+       #head-text{
+        position: relative;
+    left: 79px;
+    top: 121px;
+       }
+       .aboutme{
+        position: relative;
+    top: 597px;
+    left: 74px;
+       }
+       .cartoon{
+        position: relative;
+        top: 523px;
+        left: 337px;
+       }
+       .real-about{
+        position: relative;
+        top: 409px;
+        left: 17px;
+       }
+       .portfolio{
+        position: relative;
+        top: 22px;
+        left: -122px;
+       }
+       .port-text{
+        position: absolute;
+        top: 1743px;
+        left: 249px;
+       }
+       #p-head{
+        position: absolute;
+        top: 1797px;
+        left: 248px;
+       }
+       .college-head{
+        position: absolute;
+    top: 1884px;
+    left: 346px;
+       }
+       .hat{
+        position: absolute;
+        top: 1898px;
+        left: 520px
+       }
+       .project{
+        position: relative;
+        left: 247px;
+        top: 1959px;
+       }
+       .college-mid{
+        position: absolute;
+        top: 2233px;
+        left: 297px;
+       }
+       .tech-college{
+        position: absolute;
+    top: 2381px;
+    left: 354px;
+       }
+       .code{
+        position: absolute;
+        top: 2409px;
+        left: 339px;
+       }
+       .live{
+        position: absolute;
+        top: 2416px;
+        left: 427px;
+       }
+       #contactus{
+        position: absolute;
+        /* left: -24px; */
+        top: 123px;
+       }
+       .contact-main{
+        position: absolute;
+        top: 2734px;
+        left: 124px;
+       }
+       .contact-ul{
+        position: absolute;
+        top: 2783px;
+        left: 136px;
+       }
+       #mail-icon{
+        cursor: pointer;
+        position: absolute;
+        top: 2805px;
+        left: 329px;
+    }
+    #up-icon{
+        position: absolute;
+        top: 2832px;
+        left: 239px;
+    }
+       }
+       @media(max-width:500px){
+        .p2{
+            position: absolute;
+            top: 500px;
+            left: 177px;
+            font-size: 0.9rem;
+        }
+        .p2img{
+            position: absolute;
+            height: 38px;
+            width: 41px;
+            top: 530px;
+            left: 421px;
+        
+        }
+        #fa1{
+            position: absolute;
+            top: 556px;
+            left: 177px;
+        }
+        #fa2{position: absolute;
+        top: 556px;
+        left: 222px;
+        }
+        .tech-stack{
+            position: absolute;
+    top: 622px;
+    left: 181px;
+        }
+        footer{
+            position: absolute;
+            left: 68px;
+        }
+       }
+     

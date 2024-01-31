@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faizan ali | Front-end developer</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="alluper">
+
+        <div class="nav-bar" id="navlinks">
+            <nav>
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-sec">About</a></li>
+                    <li><a href="#portfolio-sec">Projects</a></li>
+                    <li><a href="#contactme">Contact</a></li>
+                    <p class="name">Fez.dev</p>
+            </nav>
+        </div>
+        <div class="mainarea">
+
+            <div class="intro-text">
+                <p id="p1">Front-End React <br> Developer</p>
+            <img src="hande.jpg" class="p1img">
+            <p class="p2">Hi,I'm Faizan Ali.A passionate Front-end React <br>Developer based in Islamabad,Pakistan.</p>
+            <i class="fa-brands fa-github" id="fa2"class="fa2" onclick="git()"></i>
+            <i class="fa-brands fa-linkedin" id="fa1" class="fa1" onclick="link()"></i>
+            <img src="gulabe.png" alt="" class="p2img">
+        </div>
+        <div class="tech-stack">
+            <p class="tech1">
+                Tech stack
+            </p>
+            <p class="techline">
+                |
+            </p>
+            <img src="html.png" alt="" class="html">
+            <img src="css1.png" alt="" class="css">
+            <img src="js.png" alt="" class="js">
+            <img src="react.png" alt="" class="react">
+            <img src="tailwind.png" alt="" class="tailwind">
+            <img src="bootstrap.png" alt="" class="bootstrap">
+            <img src="saas.png" alt="" class="saas">
+        </div>
+    </div>
+
+    <div class="intro-img">
+        <img src="man1.png" alt="" id="set">
+    </div>
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ABOUT ME SCTION>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <div class="aboutme" id="about-sec">
+
+        <img src="about.jpg" alt="" class="aboutme">
+        <img src="carton.jpg" alt="" class="cartoon">
+
+        <p class="me">About Me</p>
+        <p id="head-text">
+            A dedicated Front-End Developer based in Islamabad,Pakistan.
+        </p>
+        <p class="real-about">
+            As a Junior Front-End Developer, I possess an impressive
+            arsenal of skills in HTML, CSS, JavaScript, React, Tailwind,and SCSS. I excel in making and maintaining
+            responsive
+            websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces
+            through writing
+            clean and optimized code and utilizing cutting-edge FRONT who thrives in collaborating with cross-functional
+            teams to
+            development tools and techniques.
+        </p>
+    </div>
+            <!-- Portfolio -->
+    <div class="portfolio">
+        <p class="port-text" id="portfolio-sec">
+            Portfolio
+        </p>
+        <p id="p-head">
+            This project is the unique piece of development.
+        </p>
+        
+        <!-- website -->
+        <p class="college-head">
+            College Website
+        </p>
+        <img src="hat-removebg-preview.png" alt="" class="hat">
+        <p class="college-mid">
+            A College website is an online
+            platform that allows students to check the courses,that they need
+            The website provides an interface
+            for checking campuses,contact with college,students reviews.
+        </p>
+        <p class="tech-college">
+            Html &nbsp &nbsp Css &nbsp &nbsp JavaScript
+        </p>
+        <p class="code"onclick="cod()">
+            Code
+            <i class="fa-brands fa-github" id="coding"></i>
+        </p>
+        <p class="live"onclick="livo()">
+            Live Demo
+            <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+        </p>
+  <img src="project.png" alt="" class="project">
+    </div>
+
+
+    <!-- <<<<<<<<<<<<<<last secttion>>>>>>>>>>>> -->
+<div class="contact-sec" id="contactus">
+    <p class="contact-main" id="contactme">Contact:</p>
+ <ul class="contact-ul">
+        <li><a href="cruytab@gmail.com">cruytab@gmail.com</a></li>
+        <li><a href="https://www.upwork.com/freelancers/~011736e46f151f6527">Upwork</a></li>
+    </ul>
+    <i class="fa-solid fa-envelope" id="mail-icon"></i>
+    <i class="fa-brands fa-upwork" id="up-icon"></i>
+</div>
+<footer>
+    <h2 class="h2">Thank you for your time</h2>
+</footer>
+
+</div>
+
+
+
+    <script>
+        function link() {
+            window.location.href = "https://www.linkedin.com/in/m-faizan-ali-b25b1b278/";
+        }
+        const image = document.queryselector('.fa-brands fa-linkedin');
+        image.addEventListener("click", link);
+
+        // now git hub
+
+        function git() {
+            window.location.href = "https://github.com/faizanfez";
+        }
+        const img = document.queryselector('.fa-brands fa-github');
+        
+        // NOW live demo
+        function livo() {
+            window.location.href = "https://faizanfez.github.io/Portfolio-site/";
+        }
+        const live= document.queryselector('.live');
+        
+        // Now live code
+        function cod() {
+            window.location.href = "https://github.com/faizanfez/Portfolio-site.git";
+        }
+        const code= document.queryselector('.code');
+
+    
+
+</script>
+
+</body>
+
+</html>
